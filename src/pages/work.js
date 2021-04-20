@@ -25,7 +25,6 @@ const AnimationSettings = {
 };
 
 
-
 function Work(props) {
   const Layout = styled.div`
     display: grid;
@@ -50,7 +49,7 @@ function Work(props) {
  
     <Layout>
       <Helmet>
-        <title>Work - Danny Ruchtie</title>
+        <title>Danny Ruchtie</title>
         <meta
           name="description"
           content="My name is Danny Ruchtie. I'm a Dutch designer, creator and manager focused on making technology accessible and easier to use through design. "
