@@ -11,25 +11,25 @@ export const work = [
     detail: "2019 - IBM",
     url: ""
   },
-  // {
-  //   img: "/work/Work-000015.jpg",
-  //   alt: "Mercedes AMG",
-  //   detail: "2018 - IBM",
-  //   url: ""
-  // },
-  // {
-  //   img: "/work/SMART-Android-Auto.jpg",
-  //   alt: "SMART Ready To Android Auto",
-  //   detail: "2018 - IBM",
-  //   url: ""
-  // },
+  {
+    img: "/work/Work-000015.jpg",
+    alt: "Mercedes AMG",
+    detail: "2018 - IBM",
+    url: ""
+  },
+  {
+    img: "/work/SMART-Android-Auto.jpg",
+    alt: "SMART Ready To Android Auto",
+    detail: "2018 - IBM",
+    url: ""
+  },
 
-  // {
-  //   img: "/work/ready-to-smart.jpg",
-  //   alt: "SMART Ready To",
-  //   detail: "2018 - IBM",
-  //   url: ""
-  // },
+  {
+    img: "/work/ready-to-smart.jpg",
+    alt: "SMART Ready To",
+    detail: "2018 - IBM",
+    url: ""
+  },
 
   {
     img: "/work/catawiki-android.jpg",
