@@ -2,6 +2,10 @@ import React from "react";
 
 import { NavLink } from "react-router-dom";
 
+
+
+
+
 function Header(props) {
   return (
     <nav>
@@ -9,19 +13,19 @@ function Header(props) {
         Danny Ruchtie
       </a>
 
-      <NavLink to="/" exact={true} className="menu" activeClassName="selected">
+      <NavLink to="/" key="1" exact={true} className="menu" activeClassName="selected">
         Work
       </NavLink>
 
-      <NavLink to="/play" className="menu" activeClassName="selected">
+      <NavLink to="/play" key="1" className="menu" activeClassName="selected">
         Play
       </NavLink>
 
-      <NavLink to="/photography" className="menu" activeClassName="selected">
-        Photography
+      <NavLink to="/photography" key="1" className="menu" activeClassName="selected">
+        Photos
       </NavLink>
 
-      <NavLink to="/about" className="menu" activeClassName="selected">
+      <NavLink to="/about" key="1" className="menu" activeClassName="selected">
         About
       </NavLink>
 

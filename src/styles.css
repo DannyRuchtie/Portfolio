@@ -117,7 +117,7 @@ footer a {
   text-decoration: none;
   transition: color 0.3s;
   color: var(--SecondairyCopy);
-  margin: 0 1rem 0 0;
+  margin: 0 .75rem 0 0;
 }
 
 /* !content */
@@ -129,42 +129,17 @@ img {
   max-width: 100%;
   margin: 0;
   background: var(--SecondairyCopy);
+  border-radius: .25rem;
 }
 
 /* !breakpoints */
 
 @media (max-width: 768px) {
-  #root {
-    max-width: 48rem;
-  }
 }
 
-@media (max-width: 576px) {
-  #root {
-    max-width: 36rem;
-  }
+@media (max-width: 576px) {  
 
-  nav {
-    margin: 1rem 0 4rem 0;
-    text-align: center;
-    flex-direction: column;
-    display: flex;
-
-    line-height: var(--lineHeight);
-
-    align-content: center;
-    justify-content: center;
-  }
-
-  nav a {
-    margin: 0;
-  }
-
-  nav .logo {
-    flex: 0 0 100%;
-    margin: 1rem;
-    text-align: center;
-    align-content: center;
-    justify-content: center;
-  }
+nav a {
+  margin: 0 0 0 .75rem;
+}
 }

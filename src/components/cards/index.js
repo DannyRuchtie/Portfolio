@@ -35,6 +35,8 @@ function Cards(props) {
           alt={props.alt}
           width={props.width}
           height={props.height}
+
+          loading="lazy"
         />
         <div className="details">
           <strong>{props.alt}</strong>

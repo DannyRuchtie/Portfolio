@@ -2,8 +2,21 @@ import React from "react";
 import styled from "styled-components";
 import { Helmet } from "react-helmet";
 
+import { motion} from "framer-motion";
+
 import { photos } from "../content/photos.js";
 import Photo from "../components/photo";
+
+
+
+const AnimationSettings = {
+  transition: { duration: 1 },
+  initial: { opacity: 0, },
+  animate: { opacity: 1 },
+  exit: { opacity: 0,}
+};
+
+
 
 function Photography(props) {
   const Layout = styled.div`
@@ -46,10 +59,17 @@ function Photography(props) {
         <meta property="og:type" content="website" />
       </Helmet>
 
+
       <Grid>
+
+      <motion.div  key="1" {...AnimationSettings}>
+
         {photos.map((data, key) => {
           return <Photo key={key} image={data.img} alt={data.alt} />;
         })}
+
+      </motion.div>
+
       </Grid>
     </Layout>
   );
