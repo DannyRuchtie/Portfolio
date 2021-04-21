@@ -4,6 +4,10 @@ import styled from "styled-components";
 const Card = styled.div`
   position: relative;
 
+  a{
+    text-decoration:none;
+  }
+
   img {
     margin-bottom: 0.5rem;
   }
@@ -35,6 +39,8 @@ function Cards(props) {
           alt={props.alt}
           width={props.width}
           height={props.height}
+
+          loading="lazy"
         />
         <div className="details">
           <strong>{props.alt}</strong>

@@ -3,33 +3,33 @@ export const work = [
     img: "/work/Work-00001.jpg",
     alt: "Head of Design",
     detail: "2020 - CodeSandbox",
-    url: ""
+    url: "/work/codesandbox"
   },
   {
     img: "/work/Work-00002.jpg",
     alt: "IBM iX Growth Platform Leader",
     detail: "2019 - IBM",
+    url: "/work/IBM"
+  },
+  {
+    img: "/work/Work-000015.jpg",
+    alt: "Mercedes AMG",
+    detail: "2018 - IBM",
     url: ""
   },
-  // {
-  //   img: "/work/Work-000015.jpg",
-  //   alt: "Mercedes AMG",
-  //   detail: "2018 - IBM",
-  //   url: ""
-  // },
-  // {
-  //   img: "/work/SMART-Android-Auto.jpg",
-  //   alt: "SMART Ready To Android Auto",
-  //   detail: "2018 - IBM",
-  //   url: ""
-  // },
+  {
+    img: "/work/SMART-Android-Auto.jpg",
+    alt: "SMART Ready To Android Auto",
+    detail: "2018 - IBM",
+    url: ""
+  },
 
-  // {
-  //   img: "/work/ready-to-smart.jpg",
-  //   alt: "SMART Ready To",
-  //   detail: "2018 - IBM",
-  //   url: ""
-  // },
+  {
+    img: "/work/ready-to-smart.jpg",
+    alt: "SMART Ready To",
+    detail: "2018 - IBM",
+    url: ""
+  },
 
   {
     img: "/work/catawiki-android.jpg",

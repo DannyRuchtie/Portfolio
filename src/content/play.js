@@ -1,4 +1,10 @@
 export const play = [
+
+  {
+    img: "./play/hello.jpg",
+    alt: "",
+    url: "https://twitter.com/druchtie/status/1372902386499518465"
+  },
   {
     img: "./play/Play-00001.jpg",
     alt: "",

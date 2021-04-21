@@ -1,4 +1,5 @@
 import React from "react";
+
 import styled from "styled-components";
 
 function Photo(props) {
@@ -18,13 +19,17 @@ function Photo(props) {
 
   return (
     <Figure>
+  
       <img
-        loading="lazy"
         src={props.image}
         alt={props.alt}
         width={props.width}
         height={props.height}
+
+        loading="lazy"
+
       />
+    
     </Figure>
   );
 }

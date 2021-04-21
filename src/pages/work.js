@@ -1,9 +1,29 @@
 import React from "react";
+import { motion} from "framer-motion";
 import styled from "styled-components";
 import { Helmet } from "react-helmet";
 
+
 import { work } from "../content/work.js";
 import Cards from "../components/cards";
+
+
+const stagger = {
+  animate: {
+      transition:{
+          staggerChilderen:0.1
+      }
+  }
+}
+
+
+const AnimationSettings = {
+  transition: { duration: 1 },
+  initial: { opacity: 0, },
+  animate: { opacity: 1 },
+  exit: { opacity: 0,}
+};
+
 
 function Work(props) {
   const Layout = styled.div`
@@ -25,35 +45,46 @@ function Work(props) {
     }
   `;
 
-  const Article = styled.article`
-    margin: 2rem 0;
-    grid-area: article;
-  `;
-
   return (
+ 
     <Layout>
       <Helmet>
-        <title>Work - Danny Ruchtie</title>
+        <title>Danny Ruchtie</title>
         <meta
-          name="Work"
-          content="Danny Ruchtie is a Dutch Designer / Creator / Manager focused on human-computer interaction, making technology accessible and easier to use through design.
-          Danny is currently helping to make web development more accessible with the great CodeSandbox team."
+          name="description"
+          content="My name is Danny Ruchtie. I'm a Dutch designer, creator and manager focused on making technology accessible and easier to use through design. "
         />
+        <meta property="og:site_name" content="Danny  Ruchtie" />
+        <meta property="og:title" content="About Danny Ruchtie" />
+        <meta
+          property="og:url"
+          content="https://www.dannyruchtie.com/work"
+        />
+        <meta property="og:type" content="website" />
       </Helmet>
 
-      <Grid>
-        {work.map((data, key) => {
-          return (
-            <Cards
-              key={key}
-              img={data.img}
-              alt={data.alt}
-              detail={data.detail}
-            />
-          );
-        })}
-      </Grid>
+
+
+        <Grid>
+ 
+          {work.map((data, key) => {
+            return (
+              <motion.div key="1" {...AnimationSettings}  >
+              <Cards
+                key={key}
+                url={data.url}
+                img={data.img}
+                alt={data.alt}
+                detail={data.detail}
+              />
+              </motion.div>
+            );
+          })}
+    
+        </Grid>
+ 
     </Layout>
+
   );
 }
 

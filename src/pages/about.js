@@ -1,6 +1,15 @@
 import React from "react";
+import { motion} from "framer-motion";
 import styled from "styled-components";
 import { Helmet } from "react-helmet";
+
+
+const AnimationSettings = {
+  transition: { duration: 0.5 },
+  initial: { opacity: 0, y: 20 },
+  animate: { opacity: 1, y: 0 },
+  exit: { opacity: 0, y: -20 }
+};
 
 function About(props) {
   const Layout = styled.div`
@@ -106,14 +115,24 @@ function About(props) {
   `;
 
   return (
+    <motion.div  key="1" {...AnimationSettings}>
     <Layout>
+  
       <Helmet>
-        <title>Danny Ruchtie</title>
+        <title>About - Danny Ruchtie</title>
         <meta
           name="description"
-          content="Dutch designer with experience in helping organizations grow and innovate through design. "
+          content="Dutch designer with experience in helping organizations grow and innovate through design."
         />
+        <meta property="og:site_name" content="Danny  Ruchtie" />
+        <meta property="og:title" content="About Danny Ruchtie" />
+        <meta
+          property="og:url"
+          content="https://www.dannyruchtie.com/about"
+        />
+        <meta property="og:type" content="website" />
       </Helmet>
+
 
       <img
         className="hero"
@@ -199,7 +218,11 @@ function About(props) {
           </li>
         </ul>
       </Aside>
+
+
+
     </Layout>
+    </motion.div>
   );
 }
 
