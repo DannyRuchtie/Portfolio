@@ -78,9 +78,10 @@ function Project(props) {
 
   <Grid>
   <img src="/images/work/ibm/ibm-0.jpg" />
-  <img src="/images/work/ibm/ibm-1.jpg" />
+
   <img src="/images/work/ibm/ibm-4.jpg" />
   <img src="/images/work/ibm/ibm-2.jpg" />
+  <img src="/images/work/ibm/ibm-1.jpg" />
   <img src="/images/work/ibm/ibm-3.jpg" />
 
 

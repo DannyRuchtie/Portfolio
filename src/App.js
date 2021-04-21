@@ -1,6 +1,6 @@
 import React from "react";
 import { BrowserRouter, Route } from "react-router-dom";
-import { motion, AnimatePresence } from "framer-motion";
+import {  AnimatePresence } from "framer-motion";
 
 
 import Header from "./components/header";
@@ -11,6 +11,7 @@ import Work from "./pages/work.js";
 
 import CodeSandbox from "./pages/work/codesandbox/";
 import IBM from "./pages/work/IBM/";
+import AMG from "./pages/work/amg/";
 
 
 import Play from "./pages/play.js";
@@ -39,6 +40,7 @@ export default function App() {
 
               <Route exact={true} path="/work/codesandbox" component={CodeSandbox} />
               <Route exact={true} path="/work/ibm" component={IBM} />
+              <Route exact={true} path="/work/amg" component={AMG} />
 
               <Route path="/play" component={Play} />
               <Route path="/Photography" component={Photography} />

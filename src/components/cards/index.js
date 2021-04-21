@@ -8,9 +8,12 @@ const Card = styled.div`
     text-decoration:none;
   }
 
-  img {
-    margin-bottom: 0.5rem;
+
+
+  .showcase:hover > img {
+    transform: scale(1.05);
   }
+
 
   strong,
   span {
@@ -28,12 +31,23 @@ const Card = styled.div`
   .details {
     transition: 0.3s ease-in-out;
   }
+
+
+
+
 `;
+
+
+
+
 
 function Cards(props) {
   return (
+    
     <Card>
-      <a href={props.url} target="blank" className={props.className}>
+        
+      <a href={props.url} target="blank" className={props.class} >
+
         <img
           src={props.img}
           alt={props.alt}
@@ -47,7 +61,11 @@ function Cards(props) {
           <span>{props.detail}</span>
         </div>
       </a>
+
+
+
     </Card>
+
   );
 }
 

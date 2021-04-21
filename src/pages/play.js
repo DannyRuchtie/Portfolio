@@ -55,7 +55,7 @@ function Play(props) {
       <Grid>
         {play.map((data, key) => {
           return (
-            <Cards key={key} img={data.img} alt={data.alt} url={data.url} />
+            <Cards key={key} img={data.img} alt={data.alt} url={data.url} class="showcase" />
           );
         })}
       </Grid>

@@ -131,6 +131,17 @@ img {
   border-radius: .25rem;
 }
 
+img {
+  margin-bottom: 0.5rem;
+  cursor:default;
+}
+
+.showcase > img{
+  cursor:pointer;
+  transition: transform 0.6s cubic-bezier(0.34, 1.56, 0.64, 1);
+}
+
+
 /* !breakpoints */
 
 @media (max-width: 768px) {
