@@ -8,8 +8,12 @@ import Footer from "./components/footer";
 
 
 import Work from "./pages/work.js";
+
+import CodeSandbox from "./pages/work/codesandbox/";
+import IBM from "./pages/work/IBM/";
+
+
 import Play from "./pages/play.js";
-import Writing from "./pages/writing.js";
 import Photography from "./pages/photography.js";
 import About from "./pages/about.js";
 
@@ -32,6 +36,10 @@ export default function App() {
 
        
               <Route exact={true} path="/" component={Work} />
+
+              <Route exact={true} path="/work/codesandbox" component={CodeSandbox} />
+              <Route exact={true} path="/work/ibm" component={IBM} />
+
               <Route path="/play" component={Play} />
               <Route path="/Photography" component={Photography} />
               <Route path="/about" component={About} />

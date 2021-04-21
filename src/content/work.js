@@ -3,13 +3,13 @@ export const work = [
     img: "/work/Work-00001.jpg",
     alt: "Head of Design",
     detail: "2020 - CodeSandbox",
-    url: ""
+    url: "/work/codesandbox"
   },
   {
     img: "/work/Work-00002.jpg",
     alt: "IBM iX Growth Platform Leader",
     detail: "2019 - IBM",
-    url: ""
+    url: "/work/IBM"
   },
   {
     img: "/work/Work-000015.jpg",

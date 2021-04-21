@@ -4,6 +4,10 @@ import styled from "styled-components";
 const Card = styled.div`
   position: relative;
 
+  a{
+    text-decoration:none;
+  }
+
   img {
     margin-bottom: 0.5rem;
   }

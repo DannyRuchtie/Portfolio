@@ -72,6 +72,7 @@ function Work(props) {
               <motion.div key="1" {...AnimationSettings}  >
               <Cards
                 key={key}
+                url={data.url}
                 img={data.img}
                 alt={data.alt}
                 detail={data.detail}
