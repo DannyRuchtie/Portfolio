@@ -25,8 +25,8 @@ export const work = [
     img: "/work/SMART-Android-Auto.jpg",
     alt: "SMART Ready To Android Auto",
     detail: "2018 - IBM",
-    url: "",
-    class: ""
+    url: "/work/ready-to",
+    class: "showcase"
   },
 
   {

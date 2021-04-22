@@ -11,7 +11,7 @@
   --SecondairyCopy: rgb(117, 117, 117);
   --gray-400: rgb(117, 117, 117);
 
-  --pink: rgb(255, 0, 64);
+  --pink: #F77D39;
 
   --serif: ui-serif;
 }
@@ -26,7 +26,7 @@
 
 @supports (color: color(display-p3 1 1 1)) {
   :root {
-    --pink: color(display-p3 1 0 0.2823 / 1);
+    --pink: color(display-p3 1 0.56 0 / 1);
   }
 }
 

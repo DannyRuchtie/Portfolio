@@ -45,6 +45,7 @@ function Project(props) {
     color:var(--PrimaryCopy);
     font-weight:500;
     letter-spacing: -0.125rem;
+    line-height:1.125em;
   }
 
   `;
@@ -73,7 +74,7 @@ function Project(props) {
 
     
       <h1>CodeSandbox</h1>
-  <p>As head of design at CodeSandbox, I'm responsible for building the remote Design team and drive the design vision of our product(s). Helping to build an user centered culture across the product and engineering team. Besides shaping the design team and culture, I’m also helping out as Product Manager, acting as a bridge between the engineering and design team. 
+  <p>As Head of Design at CodeSandbox, I'm responsible for building the remote Design team and drive the design vision of our product(s). Helping to build an user centered culture across the product and engineering team. Besides shaping the design team and culture, I’m also helping out as Product Manager, acting as a bridge between the engineering and design team. 
   Providing stakeholders with visibility and updates of current projects and resources.</p>
 
 </Article> 
@@ -83,7 +84,7 @@ function Project(props) {
   <img src="/images/work/codesandbox/csb-0.jpg" />
   <img src="/images/work/codesandbox/csb-3.jpg" />
   <img src="/images/work/codesandbox/csb-2.jpg" />
-  <img src="/images/work/codesandbox/csb-4.jpg" />
+
   </Grid>
 
 
