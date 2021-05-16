@@ -55,7 +55,7 @@ function Project(props) {
   return (
     <Layout>
       <Helmet>
-        <title>Ready to - Danny Ruchtie</title>
+        <title>Catawiki- Danny Ruchtie</title>
 
 
       </Helmet>
@@ -68,17 +68,19 @@ function Project(props) {
    
 
    
-      <h1>Ready To</h1>
-  <p>The smart “ready to” app turns the smartphone into a digital control center for the car. You can view the vehicle status or control vehicle functions and use the innovative “ready to” services. Together with Daimler and other software suppliers, IBM designed and developed the Ready to apps for IOS and Android, Including Carplay and Android auto</p>
+      <h1>Catawiki</h1>
+  <p>Catawiki is an online auction house with around 14 million visitors per month. Buyers and sellers alike, they share a passion for their unique objects. You’ll discover lively stories behind special objects.</p>
+  <p>I was hired to help design and grow the mobile apps and later bacame part of multiple product teams, overseeing multiple (cross-platform web, IOS, and Android) design projects at the same time.</p>
+<p>The mobile apps have grown in two year from less 10% to 72% share of total Catawiki revenue. The number of unique app bidders is more than doubled.</p>
+
 </Article> 
 
   <Grid>
-  <img src="/images/work/readyto/readyto-0.jpg" />
-  <img src="/images/work/readyto/readyto-1.jpg" />
+  <img src="/images/work/catawiki/catawiki-2.jpg" />
+  <img src="/images/work/catawiki/catawiki-0.jpg" />
+  <img src="/images/work/catawiki/catawiki-1.jpg" />
+  <img src="/images/work/catawiki/catawiki-3.jpg" />
 
-  <img src="/images/work/readyto/readyto-3.jpg" />
-  <img src="/images/work/readyto/readyto-4.jpg" />
-  <img src="/images/work/readyto/readyto-2.jpg" />
 
 
 

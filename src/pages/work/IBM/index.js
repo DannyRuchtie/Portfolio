@@ -86,14 +86,7 @@ function Project(props) {
 
 
 
-
-
-
   </Grid>
-
-
-     
-
 
 
 

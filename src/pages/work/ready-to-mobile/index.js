@@ -55,7 +55,7 @@ function Project(props) {
   return (
     <Layout>
       <Helmet>
-        <title>Ready to - Danny Ruchtie</title>
+        <title>Ready to Mobile Apps - Danny Ruchtie</title>
 
 
       </Helmet>
@@ -68,31 +68,24 @@ function Project(props) {
    
 
    
-      <h1>Ready To</h1>
-  <p>The smart “ready to” app turns the smartphone into a digital control center for the car. You can view the vehicle status or control vehicle functions and use the innovative “ready to” services. Together with Daimler and other software suppliers, IBM designed and developed the Ready to apps for IOS and Android, Including Carplay and Android auto</p>
+      <h1>Ready To Apps</h1>
+  <p>With the innovative “ready to” services and the app, a new smart becomes a connected car. This connection creates an even easier way of urban mobility.</p><p>
+  The tiresome search for free parking spaces and charging stations is now also a thing of the past. In addition, with the “ready to” services, the vehicle can be shared keylessly and enjoys free insurance coverage for all drivers who “book” a ride via the app.</p>
 </Article> 
 
   <Grid>
-  <img src="/images/work/readyto/readyto-0.jpg" />
-  <img src="/images/work/readyto/readyto-1.jpg" />
-
-  <img src="/images/work/readyto/readyto-3.jpg" />
-  <img src="/images/work/readyto/readyto-4.jpg" />
-  <img src="/images/work/readyto/readyto-2.jpg" />
-
-
+  <img src="/images/work/readyto-mobile/readyto-mobile-2.jpg" />
+  <img src="/images/work/readyto-mobile/readyto-mobile-4.jpg" />
+  <img src="/images/work/readyto-mobile/readyto-mobile-0.jpg" />
+  <img src="/images/work/readyto-mobile/readyto-mobile-1.jpg" />
+  <img src="/images/work/readyto-mobile/readyto-mobile-3.jpg" />
+  <img src="/images/work/readyto-mobile/readyto-mobile-5.jpg" />
 
 
 
   </Grid>
 
 
-     
-
-
-
-
- 
       </motion.div>
 
 

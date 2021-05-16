@@ -33,24 +33,17 @@ export const work = [
     img: "/work/ready-to-smart.jpg",
     alt: "SMART Ready To",
     detail: "2018 - IBM",
-    url: "",
-    class: ""
+    url: "/work/ready-to-mobile",
+    class: "showcase"
   },
 
-  {
-    img: "/work/catawiki-android.jpg",
-    alt: "Android Apps",
-    detail: "2016 - Catawiki",
-    url: "",
-    class: ""
-  },
 
   {
     img: "/work/Work-00004.jpg",
-    alt: "IOS Apps",
+    alt: "Catawiki",
     detail: "2016 - Catawiki",
-    url: "",
-    class: ""
+    url: "/work/catawiki",
+    class: "showcase"
   },
   {
     img: "/work/Work-00003.jpg",
@@ -84,13 +77,7 @@ export const work = [
     class: ""
   },
 
-  {
-    img: "/work/philips-ht9810.jpg",
-    alt: "Philips ht9810",
-    detail: "2008 - Weber Creatives",
-    url: "",
-    class: ""
-  },
+
 
   {
     img: "/work/Work-00007.jpg",
@@ -99,13 +86,7 @@ export const work = [
     url: "",
     class: ""
   },
-  {
-    img: "/work/Work-00008.jpg",
-    alt: "Philips TQ Trailer",
-    detail: "2007 - Weber Creatives",
-    url: "",
-    class: ""
-  },
+
   {
     img: "/work/Work-00009.jpg",
     alt: "Philips Tango Demasqueé",

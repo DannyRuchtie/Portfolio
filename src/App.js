@@ -13,9 +13,12 @@ import CodeSandbox from "./pages/work/codesandbox/";
 import IBM from "./pages/work/IBM/";
 import AMG from "./pages/work/amg/";
 import readyto from "./pages/work/ready-to/";
+import readytomobile from "./pages/work/ready-to-mobile/";
+import catawiki from "./pages/work/catawiki/";
 
 
 import Play from "./pages/play.js";
+import Writing from "./pages/writing.js";
 import Photography from "./pages/photography.js";
 import About from "./pages/about.js";
 
@@ -27,7 +30,7 @@ import "./styles.css";
 export default function App() {
   return (
     <div className="App">
-      <grid>
+      <div className="grid">
         <BrowserRouter>
           <Header></Header>
 
@@ -43,8 +46,12 @@ export default function App() {
               <Route exact={true} path="/work/ibm" component={IBM} />
               <Route exact={true} path="/work/amg" component={AMG} />
               <Route exact={true} path="/work/ready-to" component={readyto} />
+              <Route exact={true} path="/work/ready-to-mobile" component={readytomobile} />
+              <Route exact={true} path="/work/catawiki" component={catawiki} />
+
 
               <Route path="/play" component={Play} />
+              <Route path="/writing" component={Writing} />
               <Route path="/Photography" component={Photography} />
               <Route path="/about" component={About} />
     
@@ -55,7 +62,7 @@ export default function App() {
 
 
         <Footer></Footer>
-      </grid>
+      </div>
     </div>
   );
 }

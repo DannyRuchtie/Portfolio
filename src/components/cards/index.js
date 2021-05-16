@@ -46,7 +46,7 @@ function Cards(props) {
     
     <Card>
         
-      <a href={props.url} target="blank" className={props.class} >
+      <a href={props.url}  className={props.class} >
 
         <img
           src={props.img}
