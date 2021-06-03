@@ -13,25 +13,27 @@ function Header(props) {
         Danny Ruchtie
       </a>
 
-      <NavLink to="/" key="1" exact={true} className="menu" activeClassName="selected">
+      <NavLink to="/" exact={true} className="menu" activeClassName="selected">
         Work
       </NavLink>
 
-      <NavLink to="/play" key="1" className="menu" activeClassName="selected">
+      <NavLink to="/play" className="menu" activeClassName="selected">
         Play
-      </NavLink>
-
-      <NavLink to="/photography" key="1" className="menu" activeClassName="selected">
-        Photos
-      </NavLink>
-
-      <NavLink to="/about" key="1" className="menu" activeClassName="selected">
-        About
       </NavLink>
 
       {/* <NavLink to="/writing" className="menu" activeClassName="selected">
         Writing
       </NavLink> */}
+
+      <NavLink to="/photography"  className="menu" activeClassName="selected">
+        Photos
+      </NavLink>
+
+      <NavLink to="/about" className="menu" activeClassName="selected">
+        About
+      </NavLink>
+
+
     </nav>
   );
 }

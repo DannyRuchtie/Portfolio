@@ -45,6 +45,7 @@ function Project(props) {
     color:var(--PrimaryCopy);
     font-weight:500;
     letter-spacing: -0.125rem;
+    line-height:1.125em;
   }
 
   `;
@@ -72,26 +73,20 @@ function Project(props) {
 
    
       <h1>IBM</h1>
-  <p>As Growth Platform Leader (GPL) Digital Strategy and Interactive Experience (DS&iX) for IBM CIC Benelux, I managed and coached IBM’s Digital Business Strategy, Customer Engagement & Design, Mobile, and Salesforce practices. I defined and maintained the DS&iX CIC way of working with our IBM GBS Benelux partners. But most importantly, I made sure our teams added value to our clients.</p>
+  <p>As Growth Platform Leader Digital Strategy and Interactive Experience (DS&iX) for IBM CIC Benelux, I managed and coached IBM’s Digital Business Strategy, Customer Engagement & Design, Mobile, and Salesforce practices. I defined and maintained the DS&iX CIC way of working with our IBM GBS Benelux partners. But most importantly, I made sure our teams added value to our clients.</p>
 
 </Article> 
 
   <Grid>
   <img src="/images/work/ibm/ibm-0.jpg" />
-  <img src="/images/work/ibm/ibm-1.jpg" />
+
   <img src="/images/work/ibm/ibm-4.jpg" />
-  <img src="/images/work/ibm/ibm-2.jpg" />
-  <img src="/images/work/ibm/ibm-3.jpg" />
 
-
+  <img src="/images/work/ibm/ibm-1.jpg" />
 
 
 
   </Grid>
-
-
-     
-
 
 
 

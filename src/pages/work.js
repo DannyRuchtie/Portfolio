@@ -76,6 +76,7 @@ function Work(props) {
                 img={data.img}
                 alt={data.alt}
                 detail={data.detail}
+                class={data.class}
               />
               </motion.div>
             );
